@@ -22,7 +22,7 @@ TWILIO_PHONE = os.getenv("TWILIO_PHONE")
 ALERT_PHONE = os.getenv("ALERT_PHONE")
 
 # ✅ Load YOLO model
-model = YOLO("yolov8n.pt")
+model = YOLO("models/yolov8n.pt")
 
 # ✅ Initialize camera
 cap = cv2.VideoCapture(0)  
@@ -32,7 +32,7 @@ if not cap.isOpened():
 
 # ✅ Initialize Sound System
 pygame.mixer.init()
-alert_sound = "alert.mp3"
+alert_sound = "sounds/alert.mp3"
 
 # ✅ Function to get live location (latitude and longitude)
 def get_location():
