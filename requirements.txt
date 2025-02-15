@@ -1,0 +1,15 @@
+# 🛠️ Required Dependencies for Smart Elephant Fencing System
+
+## 🔹 Core Libraries
+opencv-python         # OpenCV for real-time video processing
+torch                 # PyTorch for deep learning computations
+ultralytics           # YOLO (You Only Look Once) model for elephant detection
+
+## 🔹 Sound & Alerts
+pygame                # To play alarm sounds
+twilio                # SMS notifications using Twilio
+smtplib               # Sending email alerts (built-in but included for reference)
+email                 # Email handling module (part of Python standard library)
+
+## 🔹 Environment Management
+python-dotenv         # Load environment variables from a .env file
