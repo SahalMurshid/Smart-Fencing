@@ -75,7 +75,7 @@ python elephant_detection.py
 ---
 
 ## 👥 Contributors
-- **Your Name** – [GitHub](https://github.com/SahalMurshid)
+- **Your Name** – [Sahal Murshid](https://github.com/SahalMurshid)
 - Feel free to contribute by creating pull requests!
 
 ---
